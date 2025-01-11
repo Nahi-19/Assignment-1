@@ -1,0 +1,47 @@
+* {
+    margin: 10px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin, .explore {
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content h2 {
+    font-size: 16px;
+    background-color: lightgreen;
+    color: black;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 48px;
+    background-color: lightgreen;
+    color: black;
+    margin: 0;
+}
+
+.banner-picture {
+    width: 350px;
+    background-color: lightgreen;
+}
