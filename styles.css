@@ -1,5 +1,5 @@
 * {
-    margin: 10px;
+    margin: 10 auto;
     background-color: white;
     font-family: Arial, sans-serif;
 }
@@ -27,6 +27,11 @@ nav {
     justify-content: space-between;
 }
 
+.banner-content {
+    background-color: lightgreen;
+    width: 100%;
+}
+
 .banner-content h2 {
     font-size: 16px;
     background-color: lightgreen;
@@ -44,4 +49,249 @@ nav {
 .banner-picture {
     width: 350px;
     background-color: lightgreen;
+    padding-left: 400px;
+}
+
+.vision {
+    padding: 40px;
+    background-color: cyan;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.vision-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1 {
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card2 {
+    background-color: lightcoral;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card3 {
+    background-color: lightgreen;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.card-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: darksalmon;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.learnmore {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.learnmore:hover {
+    background-color: lightgreen;
+}
+
+.news {
+    padding: 40px;
+    background-color: white;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.news-card {
+    display: flex;
+    background-color: lightcoral;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.news-img {
+    width: 300px;
+    height: auto;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.read-more {
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: burlywood;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: chartreuse;
+}
+
+.donation {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: green;
+}
+
+.option-selected {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.option-selected:hover {
+    background-color: green;
+}
+
+.amount {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.done-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: wheat;
+    color: black;
+}
+
+.done-button:hover {
+    background-color: green;
+}
+
+.subscribe {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.subscribe-input {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.subscribe-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: crimson;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: green;
+}
+
+.note {
+    font-size: 16px;
+    color: forestgreen;
+    margin: 10px 10px;
 }
